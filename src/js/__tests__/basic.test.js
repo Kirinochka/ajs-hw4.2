@@ -14,4 +14,5 @@ test('should sort heroes', () => {
   ];
 
   expect(heroesSort(unsorted)).toEqual(sorted);
+  expect(heroesSort(unsorted)).not.toBe(sorted);
 });
